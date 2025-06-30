@@ -52,7 +52,7 @@ while True:
 
     elif opcao == 3:
         print(f" EXTRATO ".center(27, "*"))
-        print("Não foram realizadas movimentações." if not extrato else extrato)
+        print("Não foram realizadas movimentações." if not extrato else extrato) # ADICIONADO APÓS A RESOLUÇÃO
         print(f"\nSaldo: R$ {saldo:.2f}")
 
     
